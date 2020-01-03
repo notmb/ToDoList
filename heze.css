@@ -1,0 +1,144 @@
+
+html {
+  /* height: 100%; */
+  width: 100%;
+  background: white;
+}
+body {
+  box-sizing: border-box;
+  background: silver; 
+  border: 10px solid white;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+h1 {
+  margin: 40px;
+  background: cadetblue;
+
+  color: black;
+  text-align: left;
+  font-size: 62px;
+  font-family: Bradley Hand;
+  font-style: oblique;
+}
+
+.columns {
+  display: flex;
+  flex-flow: row;
+  align-items: flex-start;
+  margin: 40px;
+}
+
+
+.LColumn {
+  width: 65%;
+
+  background:  #422f5c ;
+}
+
+.labels {
+  display: flex;
+  box-sizing: border-box;
+
+  width: 98%;
+  /* height: 2vw; */
+  border: 1px solid whitesmoke;
+
+  margin: 1%; 
+  background: whitesmoke;
+  align-items: center
+}
+
+.top_h2 {
+  margin: 5%;
+  color: slategrey;
+  font-size: 32px;
+}
+
+/* #bottom_of_form{
+  margin: 5%;
+  box-sizing: border-box;
+  border: 2px solid whitesmoke;
+} */
+.border_bottom_of_form{
+  margin: 5%; 
+  border-radius: 10px;
+  padding: 1px;
+  background-image: linear-gradient(to right, cadetblue 0%, #4830F0 51%, cadetblue 100%);
+}
+
+.top_of_form{
+  margin: 5%;
+}
+
+#input_border{
+  display: inline;
+  padding: 10px;
+  border-radius: 10px;
+  background-image: linear-gradient(to right, cadetblue 0%, #4830F0 51%, cadetblue 100%);
+}
+
+#AddEl{
+  width: 60%;
+  padding: 0;
+  background: whitesmoke;
+  border: 0 none;
+  border-radius: 10px;
+}
+
+
+
+#DeleteEl{
+  text-decoration: none;
+  outline: none;
+  border: 0 none;
+  display: inline-block;
+  color: white;
+  padding: 10px 20px;
+  margin: 10px 20px;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-image: linear-gradient(to right, #9EEFE1 0%, #4830F0 51%, #9EEFE1 100%);
+  background-size: 200% auto;
+  box-shadow: 0 0 20px rgba(0,0,0,.1);
+  transition: .5s;
+}
+#DeleteEl:hover {background-position: right center;}
+
+#PrintEl{  text-decoration: none;
+  outline: none;
+  border: 0 none;
+  display: inline-block;
+  color: white;
+  padding: 10px 20px;
+  margin: 2%;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-image: linear-gradient(to right, #9EEFE1 0%, #4830F0 51%, #9EEFE1 100%);
+  background-size: 200% auto;
+  box-shadow: 0 0 20px rgba(0,0,0,.1);
+  transition: .5s;
+}
+#PrintEl:hover{background-position: right center;}
+
+
+.crossTask {
+  text-decoration: line-through;
+  color:  #b2babb;
+  background: darkgray;
+}
+
+
+.RColumn {
+  width: 35%;
+
+}
+img {
+  width: 90%;
+  margin: 5%;
+}
