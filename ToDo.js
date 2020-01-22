@@ -47,6 +47,7 @@ function CreateButton(address, id) {
             button.classList.remove('button_unactive');
             button.classList.add("button_active");
         } else{
+            RemoveNoteArea(address, id);
             button.classList.remove('button_active');
             button.classList.add('button_unactive')
         }
@@ -72,7 +73,9 @@ function CreateNoteArea(address, id) {
     address.appendChild(divNote);
  }
  function RemoveNoteArea(address, id){
-    const removeElement = 
+     
+    const removeElement = document.getElementById(id + "n");
+    removeElement.remove();
  }
 
 function CreateNewTasks() {
